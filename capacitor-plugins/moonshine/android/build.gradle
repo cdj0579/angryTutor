@@ -1,0 +1,20 @@
+// Android library build file for Moonshine Capacitor plugin
+
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android' // if you add kotlin code later
+}
+
+android {
+    compileSdkVersion 34
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 34
+    }
+    namespace 'com.example.moonshine'
+}
+
+dependencies {
+    // add Moonshine Android dependency if available
+    // implementation 'ai.moonshine:moonshine-voice:0.0.49'
+}

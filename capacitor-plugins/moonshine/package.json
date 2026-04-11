@@ -1,0 +1,25 @@
+{
+  "name": "moonshine-plugin",
+  "version": "0.1.0",
+  "description": "Capacitor plugin wrapping Moonshine voice library",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "license": "MIT",
+  "capacitor": {
+    "plugins": {
+      "Moonshine": {
+        "name": "Moonshine",
+        "platforms": ["ios", "android", "web"]
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "@capacitor/core": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
