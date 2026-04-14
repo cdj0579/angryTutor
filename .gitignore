@@ -42,3 +42,6 @@ npm-debug.log*
 .env.development
 .env.production
 .env.example
+
+# Documentation kept locally only (removed from remote history)
+/docs/
