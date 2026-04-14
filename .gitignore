@@ -45,3 +45,7 @@ npm-debug.log*
 
 # Documentation kept locally only (removed from remote history)
 /docs/
+
+# Local server configuration files
+/docker-compose.yml
+/nginx.conf
